@@ -20,11 +20,11 @@ const Header = () => {
 
         {/* Botão WhatsApp */}
         <a
-          href="https://github.com/Lucas-PCN"
+          href="https://api.whatsapp.com/send/?phone=5534992003533&text&type=phone_number&app_absent=0&wame_ctl=1&fbclid=PAQ0xDSwK4Hn5leHRuA2FlbQIxMAABp3HMAo2E3bN5Gos8gzPUgzRdJc3yb1_l-HtAhlgaQzAr8PPEHx_B16lshomD_aem_57Dwdr8SyOW4yDWQ6b7flQ"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src={whatsappIcon} alt="WhatsApp" className="w-4 h-4" />
+          <img src={whatsappIcon} alt="WhatsApp" className="w-5 h-5" />
         </a>
       </div>
 
@@ -40,19 +40,19 @@ const Header = () => {
       )}
 
       {/* DESKTOP */}
-      <div className="hidden lg:flex items-center justify-between h-20 px-12">
+      <div className="hidden lg:flex relative items-center h-20 px-12">
         {/* Redes sociais */}
         <div className="flex items-center gap-7">
-          <a href="https://github.com/Lucas-PCN" target="_blank" rel="noopener noreferrer">
-            <img src={instagramIcon} alt="Instagram" className="w-4 h-4" />
+          <a href="https://www.instagram.com/biancapereiranutricionista?igsh=cno4ZXV4b2h3YmYw" target="_blank" rel="noopener noreferrer">
+            <img src={instagramIcon} alt="Instagram" className="w-5 h-5" />
           </a>
-          <a href="https://github.com/Lucas-PCN" target="_blank" rel="noopener noreferrer">
-            <img src={whatsappIcon} alt="WhatsApp" className="w-4 h-4" />
+          <a href="https://api.whatsapp.com/send/?phone=5534992003533&text&type=phone_number&app_absent=0&wame_ctl=1&fbclid=PAQ0xDSwK4Hn5leHRuA2FlbQIxMAABp3HMAo2E3bN5Gos8gzPUgzRdJc3yb1_l-HtAhlgaQzAr8PPEHx_B16lshomD_aem_57Dwdr8SyOW4yDWQ6b7flQ" target="_blank" rel="noopener noreferrer">
+            <img src={whatsappIcon} alt="WhatsApp" className="w-5 h-5" />
           </a>
         </div>
 
         {/* Logo + Navegação */}
-        <div className="flex items-center gap-12">
+        <div className="absolute left-1/2 transform -translate-x-1/2 flex items-center gap-12">
           <span className="text-sm">Bianca Pereira Nutricionista</span>
           <img src={logoNutri} alt="Logo" className="h-12" />
           <nav className="flex gap-8 text-black text-sm">
@@ -62,12 +62,12 @@ const Header = () => {
         </div>
 
         {/* Botão de agendamento */}
-        <div>
+        <div className="ml-auto">
           <a
-            href="https://github.com/Lucas-PCN"
+            href="https://api.whatsapp.com/send/?phone=5534992003533&text&type=phone_number&app_absent=0&wame_ctl=1&fbclid=PAQ0xDSwK4Hn5leHRuA2FlbQIxMAABp3HMAo2E3bN5Gos8gzPUgzRdJc3yb1_l-HtAhlgaQzAr8PPEHx_B16lshomD_aem_57Dwdr8SyOW4yDWQ6b7flQ"
             target="_blank"
             rel="noopener noreferrer"
-            className="border border-black rounded-full px-6 py-2 text-sm hover:bg-jet hover:text-white transition"
+            className="border border-jet rounded-full px-6 py-2 text-sm hover:bg-jet hover:text-white transition"
           >
             Agende sua consulta
           </a>
