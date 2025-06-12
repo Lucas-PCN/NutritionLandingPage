@@ -1,9 +1,12 @@
 @import "tailwindcss";
-@tailwind utilities;
+
+#root {
+  margin: 0 auto;
+}
 
 @theme {
   --font-montserrat: "Montserrat", sans-serif;
-
+  
   --color-beige: #E1E6CE;
   --color-off-white: #FCFBFE;
   --color-moss-green: #8D9A5B;

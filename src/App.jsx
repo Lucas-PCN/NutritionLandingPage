@@ -1,7 +1,10 @@
+import React from 'react';
+import Header from './components/Header';
+
 export default function App() {
   return (
-    <div className="text-3xl font-bold text-blue-600 text-center mt-10">
-      Tailwind funcionando! 🚀
+    <div className="bg-off-white w-screen h-screen">
+      <Header />
     </div>
   );
 }
