@@ -9,7 +9,8 @@ const Header = () => {
 
   return (
     <header className="fixed top-0 left-0 w-full bg-off-white shadow-lg">
-      <div className="flex items-center justify-between w-full px-7 h-20 lg:hidden">
+      {/* MOBILE */}
+      <div className="flex items-center justify-between px-7 h-20 lg:hidden">
         {/* Botão menu */}
         <button onClick={() => setIsOpen(!isOpen)}>
           <img src={menuIcon} alt="Menu" className="w-5 h-5" />
@@ -40,7 +41,7 @@ const Header = () => {
       )}
 
       {/* DESKTOP */}
-      <div className="hidden lg:flex relative items-center h-20 px-12">
+      <div className="hidden lg:flex relative items-center h-20 px-7">
         {/* Redes sociais */}
         <div className="flex items-center gap-7">
           <a href="https://www.instagram.com/biancapereiranutricionista?igsh=cno4ZXV4b2h3YmYw" target="_blank" rel="noopener noreferrer">
@@ -52,7 +53,7 @@ const Header = () => {
         </div>
 
         {/* Logo + Navegação */}
-        <div className="absolute left-1/2 transform -translate-x-1/2 flex items-center gap-12">
+        <div className="absolute left-48/100 transform -translate-x-48/100 flex items-center gap-12">
           <span className="text-sm">Bianca Pereira Nutricionista</span>
           <img src={logoNutri} alt="Logo" className="h-12" />
           <nav className="flex gap-8 text-black text-sm">
