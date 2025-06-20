@@ -2,11 +2,11 @@ import React from 'react';
 import legumes from '../assets/backgrounds/legumes.png';
 import sorrisoMobile from '../assets/backgrounds/sorrisoMobile.png';
 import sorrisoDesktop from '../assets/backgrounds/sorrisoDesktop.png';
-// import natureza from '../assets/backgrounds/natureza.jpg';
 import ondaMobile from '../assets/backgrounds/ondaMobile.png';
-// import ondaDesktop from '../assets/backgrounds/ondaDesktop.png';
 import HomeMobileCard from '../components/cards/mobile/HomeMobileCard';
 import HomeDesktopCard from '../components/cards/desktop/HomeDesktopCard';
+// import natureza from '../assets/backgrounds/natureza.jpg';
+// import ondaDesktop from '../assets/backgrounds/ondaDesktop.png';
 
 const Home = () => {
   return (
