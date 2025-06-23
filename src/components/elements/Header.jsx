@@ -7,9 +7,11 @@ import HeaderButton from '../shared/HeaderButton';
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const WHATSAPP_URL = "https://api.whatsapp.com/send/?phone=5534992003533&text&type=phone_number&app_absent=0&wame_ctl=1&fbclid=PAQ0xDSwK4Hn5leHRuA2FlbQIxMAABp3HMAo2E3bN5Gos8gzPUgzRdJc3yb1_l-HtAhlgaQzAr8PPEHx_B16lshomD_aem_57Dwdr8SyOW4yDWQ6b7flQ";
+  const INSTA_URL = "https://www.instagram.com/biancapereiranutricionista?igsh=cno4ZXV4b2h3YmYw";
 
   return (
-    <header className="fixed top-0 left-0 w-full bg-off-white shadow-lg">
+    <header className="absolute inset-x-0 top-0 z-50 w-full bg-off-white shadow-lg">
       {/* MOBILE */}
       <div className="flex items-center justify-between px-7 h-20 lg:hidden">
         {/* Botão menu */}
@@ -22,7 +24,7 @@ const Header = () => {
 
         {/* Botão WhatsApp */}
         <a
-          href="https://api.whatsapp.com/send/?phone=5534992003533&text&type=phone_number&app_absent=0&wame_ctl=1&fbclid=PAQ0xDSwK4Hn5leHRuA2FlbQIxMAABp3HMAo2E3bN5Gos8gzPUgzRdJc3yb1_l-HtAhlgaQzAr8PPEHx_B16lshomD_aem_57Dwdr8SyOW4yDWQ6b7flQ"
+          href={WHATSAPP_URL}
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -32,7 +34,7 @@ const Header = () => {
 
       {/* Menu Dropdown */}
       {isOpen && (
-        <nav className="absolute top-full left-0 w-44 h-screen bg-off-white shadow-lg py-4 px-7">
+        <nav className="lg:hidden absolute top-full left-0 w-44 h-screen bg-off-white shadow-lg py-4 px-7">
           <ul className="flex flex-col space-y-4 text-black">
             <li><a href="#sobre">Sobre mim</a></li>
             <li><a href="#servicos">Meus Serviços</a></li>
@@ -45,10 +47,10 @@ const Header = () => {
       <div className="hidden lg:flex relative items-center h-20 px-7">
         {/* Redes sociais */}
         <div className="flex items-center gap-7">
-          <a href="https://www.instagram.com/biancapereiranutricionista?igsh=cno4ZXV4b2h3YmYw" target="_blank" rel="noopener noreferrer">
+          <a href={INSTA_URL} target="_blank" rel="noopener noreferrer">
             <img src={instagramIcon} alt="Instagram" className="w-5 h-5" />
           </a>
-          <a href="https://api.whatsapp.com/send/?phone=5534992003533&text&type=phone_number&app_absent=0&wame_ctl=1&fbclid=PAQ0xDSwK4Hn5leHRuA2FlbQIxMAABp3HMAo2E3bN5Gos8gzPUgzRdJc3yb1_l-HtAhlgaQzAr8PPEHx_B16lshomD_aem_57Dwdr8SyOW4yDWQ6b7flQ" target="_blank" rel="noopener noreferrer">
+          <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer">
             <img src={whatsappIcon} alt="WhatsApp" className="w-5 h-5" />
           </a>
         </div>
