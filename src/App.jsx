@@ -3,6 +3,7 @@ import Header from './components/elements/Header';
 import AboutMe from './sections/AboutMe';
 import Home from './sections/Home';
 import Services from './sections/Services';
+import GetInTouch from './sections/GetInTouch';
 
 export default function App() {
   return (
@@ -12,6 +13,7 @@ export default function App() {
         <Home />
         <AboutMe />
         <Services />
+        <GetInTouch />
       </main>
     </div>
   );

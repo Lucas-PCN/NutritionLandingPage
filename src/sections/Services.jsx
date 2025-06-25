@@ -58,7 +58,6 @@ const services = () => {
         </div>
       </div>
     </section>
-
   );
 };
 
