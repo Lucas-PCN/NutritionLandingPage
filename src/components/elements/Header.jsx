@@ -11,7 +11,7 @@ const Header = () => {
   const INSTA_URL = "https://www.instagram.com/biancapereiranutricionista?igsh=cno4ZXV4b2h3YmYw";
 
   return (
-    <header className="absolute inset-x-0 top-0 z-50 w-full bg-off-white shadow-lg">
+    <header className="fixed top-0 z-50 w-full bg-off-white shadow-lg">
       {/* MOBILE */}
       <div className="flex items-center justify-between px-7 h-20 lg:hidden">
         {/* Botão menu */}
