@@ -15,5 +15,6 @@
 @layer base {
   body {
     @apply font-montserrat;
+    @apply text-jet;
   }
 }

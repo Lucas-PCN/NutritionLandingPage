@@ -6,6 +6,7 @@ import Services from './sections/Services';
 import GetInTouch from './sections/GetInTouch';
 import Testimonials from './sections/Testimonials';
 import TalkToMe from './sections/TalkToMe';
+import Contacts from './sections/Contacts';
 
 export default function App() {
   return (
@@ -18,6 +19,7 @@ export default function App() {
         <GetInTouch />
         <Testimonials />
         <TalkToMe />
+        <Contacts />
       </main>
     </div>
   );
