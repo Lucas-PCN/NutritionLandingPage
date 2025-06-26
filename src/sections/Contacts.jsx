@@ -6,7 +6,7 @@ const Contacts = () => {
   return (
     <section className="w-full h-full flex items-center justify-center bg-white">
       {/* MOBILE */}
-      <div className="py-[75px] flex flex-col gap-[75px] items-center justify-center md:flex-row lg:hidden">
+      <div className="py-[75px] flex flex-col gap-[75px] items-center justify-center lg:hidden">
         <div className="flex flex-col gap-4 justify-center items-center">
           <h1 className="text-[20px]">
             Entre em contato
