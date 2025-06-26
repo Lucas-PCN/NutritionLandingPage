@@ -4,15 +4,12 @@ import balanca from '../assets/icons/balanca.png';
 import maca from '../assets/icons/maca.png';
 import garfinho from '../assets/icons/garfinho.png';
 import check from '../assets/icons/check.png';
-import instagramIcon from '../assets/icons/Instagram_Logo_bolder.png';
-import whatsappIcon from '../assets/icons/WhatsApp_logo.png';
 
 const TalkToMe = () => {
   const WHATSAPP_URL = "https://api.whatsapp.com/send/?phone=5534992003533&text&type=phone_number&app_absent=0&wame_ctl=1&fbclid=PAQ0xDSwK4Hn5leHRuA2FlbQIxMAABp3HMAo2E3bN5Gos8gzPUgzRdJc3yb1_l-HtAhlgaQzAr8PPEHx_B16lshomD_aem_57Dwdr8SyOW4yDWQ6b7flQ";
-  const INSTA_URL = "https://www.instagram.com/biancapereiranutricionista?igsh=cno4ZXV4b2h3YmYw";
 
   return (
-    <section className="w-full h-full flex items-center justify-center">
+    <section className="w-full h-full flex items-center justify-center bg-seasalt">
       {/* MOBILE */}
       <div className="py-[80px] flex flex-col gap-[131px] items-center justify-center md:flex-row lg:hidden">
         <div className="flex flex-col gap-[30px] items-start w-[298px]">
@@ -70,7 +67,7 @@ const TalkToMe = () => {
           </div>
           <div className="absolute bottom-[19.5px] left-[67.75px]">
             <a
-              href="https://api.whatsapp.com/send/?phone=5534992003533&text&type=phone_number&app_absent=0&wame_ctl=1&fbclid=PAQ0xDSwK4Hn5leHRuA2FlbQIxMAABp3HMAo2E3bN5Gos8gzPUgzRdJc3yb1_l-HtAhlgaQzAr8PPEHx_B16lshomD_aem_57Dwdr8SyOW4yDWQ6b7flQ"
+              href={WHATSAPP_URL}
               target="_blank"
               rel="noopener noreferrer"
               className="bg-gradient-to-r from-moss-green to-mindaro rounded-full px-[37px] py-[19.5px] text-sm text-black hover:from-jet hover:to-jet hover:text-white transition"
@@ -139,7 +136,7 @@ const TalkToMe = () => {
             </div>
             <div className="absolute bottom-[10px] left-[104.75px]">
               <a
-                href="https://api.whatsapp.com/send/?phone=5534992003533&text&type=phone_number&app_absent=0&wame_ctl=1&fbclid=PAQ0xDSwK4Hn5leHRuA2FlbQIxMAABp3HMAo2E3bN5Gos8gzPUgzRdJc3yb1_l-HtAhlgaQzAr8PPEHx_B16lshomD_aem_57Dwdr8SyOW4yDWQ6b7flQ"
+                href={WHATSAPP_URL}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-gradient-to-r from-moss-green to-mindaro rounded-full px-[37px] py-[19.5px] text-sm text-black hover:from-jet hover:to-jet hover:text-white transition"
