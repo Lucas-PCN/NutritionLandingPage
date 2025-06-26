@@ -4,6 +4,8 @@ import AboutMe from './sections/AboutMe';
 import Home from './sections/Home';
 import Services from './sections/Services';
 import GetInTouch from './sections/GetInTouch';
+import Testimonials from './sections/Testimonials';
+import TalkToMe from './sections/TalkToMe';
 
 export default function App() {
   return (
@@ -14,6 +16,8 @@ export default function App() {
         <AboutMe />
         <Services />
         <GetInTouch />
+        <Testimonials />
+        <TalkToMe />
       </main>
     </div>
   );
