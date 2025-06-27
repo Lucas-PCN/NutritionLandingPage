@@ -8,6 +8,7 @@ import Testimonials from './sections/Testimonials';
 import TalkToMe from './sections/TalkToMe';
 import Contacts from './sections/Contacts';
 import Faq from './sections/Faq';
+import Transition from './sections/Transition';
 
 export default function App() {
   return (
@@ -22,6 +23,7 @@ export default function App() {
         <TalkToMe />
         <Faq />
         <Contacts />
+        <Transition />
       </main>
     </div>
   );

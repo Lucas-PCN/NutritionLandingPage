@@ -2,7 +2,7 @@ import React from 'react';
 import legumes from '../assets/backgrounds/legumes.png';
 import sorrisoMobile from '../assets/backgrounds/sorrisoMobile.png';
 import sorrisoDesktop from '../assets/backgrounds/sorrisoDesktop.png';
-import ondaMobile from '../assets/backgrounds/ondaMobile.png';
+import onda from '../assets/backgrounds/waveUp.png';
 import HomeMobileCard from '../components/cards/mobile/HomeMobileCard';
 import HomeDesktopCard from '../components/cards/desktop/HomeDesktopCard';
 // import natureza from '../assets/backgrounds/natureza.jpg';
@@ -20,7 +20,7 @@ const Home = () => {
 
         {/* Segunda metade */}
         <div className="h-1/2 w-full bg-no-repeat bg-cover bg-right" style={{ backgroundImage: `url(${sorrisoMobile})` }}>
-          <img src={ondaMobile} alt="Onda" className="absolute bottom-0 left-0 w-full object-contain pointer-events-none" />
+          <img src={onda} alt="Onda" className="absolute bottom-0 left-0 w-full object-contain pointer-events-none" />
         </div>
       </div>
 
