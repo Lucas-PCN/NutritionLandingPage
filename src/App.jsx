@@ -9,6 +9,7 @@ import TalkToMe from './sections/TalkToMe';
 import Contacts from './sections/Contacts';
 import Faq from './sections/Faq';
 import Transition from './sections/Transition';
+import Footer from './components/elements/Footer';
 
 export default function App() {
   return (
@@ -25,6 +26,7 @@ export default function App() {
         <Contacts />
         <Transition />
       </main>
+      <Footer />
     </div>
   );
 }
