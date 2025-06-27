@@ -7,6 +7,7 @@ import GetInTouch from './sections/GetInTouch';
 import Testimonials from './sections/Testimonials';
 import TalkToMe from './sections/TalkToMe';
 import Contacts from './sections/Contacts';
+import Faq from './sections/Faq';
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
         <GetInTouch />
         <Testimonials />
         <TalkToMe />
+        <Faq />
         <Contacts />
       </main>
     </div>
