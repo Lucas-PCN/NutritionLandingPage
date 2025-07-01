@@ -8,7 +8,7 @@ const TalkToMe = () => {
   return (
     <section className="w-full h-full flex items-center justify-center bg-seasalt">
       {/* MOBILE */}
-      <div className="py-[80px] flex flex-col gap-[131px] items-center justify-center md:flex-row lg:hidden">
+      <div className="py-[80px] flex flex-col gap-[131px] items-center justify-center lg:hidden">
         <ResultsMobileCard />
 
         <img src={marmitasSaudaveis} className="h-[375px] w-[250px]" />
