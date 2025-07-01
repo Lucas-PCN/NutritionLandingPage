@@ -6,10 +6,10 @@ import check from '../../../assets/icons/check.png';
 
 const ResultsDesktopCard = () => {
   return (
-    <div className="absolute w-1/2 left-0 flex justify-end pr-[197px]">
+    <div className="absolute w-1/2 left-0 flex justify-end pr-[120px]">
       <div className="flex flex-col gap-[38px] items-start w-[505px]">
         <div className="flex items-center gap-[20px]">
-          <h1 className="text-[44px] text-moss-green">
+          <h1 className="text-[40px] text-moss-green">
             Obtenha resultados
           </h1>
           <img src={check} alt="check icon" className="w-[40px] h-[40px]" />

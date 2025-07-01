@@ -2,7 +2,7 @@ const TalkToMeDesktopCard = () => {
     const WHATSAPP_URL = "https://api.whatsapp.com/send/?phone=5534992003533&text&type=phone_number&app_absent=0&wame_ctl=1&fbclid=PAQ0xDSwK4Hn5leHRuA2FlbQIxMAABp3HMAo2E3bN5Gos8gzPUgzRdJc3yb1_l-HtAhlgaQzAr8PPEHx_B16lshomD_aem_57Dwdr8SyOW4yDWQ6b7flQ";
   
     return (
-      <div className="absolute w-1/2 right-0 flex items-start pl-[246px]">
+      <div className="absolute w-1/2 right-0 flex items-start pl-[210px]">
         <div className="relative w-[408px] h-[376px]">
           <div className="bg-beige/80 absolute top-0 rounded-[20px] w-[408px] h-[356px]">
             <div className="absolute text-center flex flex-col w-[356px] left-[26px] top-[38px] gap-[26px]">
