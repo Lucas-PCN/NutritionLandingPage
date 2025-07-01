@@ -1,4 +1,5 @@
 import React from 'react';
+import { useEffect } from 'react';
 import legumes from '../assets/backgrounds/legumes.png';
 import sorrisoMobile from '../assets/backgrounds/sorrisoMobile.png';
 import sorrisoDesktop from '../assets/backgrounds/sorrisoDesktop.png';
@@ -9,10 +10,24 @@ import HomeDesktopCard from '../components/cards/desktop/HomeDesktopCard';
 // import ondaDesktop from '../assets/backgrounds/ondaDesktop.png';
 
 const Home = () => {
+  useEffect(() => {
+    const setVh = () => {
+      const vh = window.innerHeight * 0.01;
+      document.documentElement.style.setProperty('--vh', `${vh}px`);
+    };
+
+    setVh();
+    window.addEventListener('resize', setVh);
+    return () => window.removeEventListener('resize', setVh);
+  }, []);
+  
   return (
     <section className="w-full min-h-screen pt-20">
       {/* MOBILE */}
-      <div className="w-full h-[calc(100vh-80px)] lg:hidden flex flex-col">
+      <div 
+        className="w-full lg:hidden flex flex-col"
+        style={{ height: 'calc(var(--vh, 1vh) * 100 - 80px)' }}
+      >
         {/* Primeira metade */}
         <div className="bg-[#E3E2E5] h-1/2 w-full flex items-center justify-center text-center" style={{ backgroundImage: `url(${legumes})` }}>
           <HomeMobileCard />
