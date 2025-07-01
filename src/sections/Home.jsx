@@ -20,12 +20,12 @@ const Home = () => {
     window.addEventListener('resize', setVh);
     return () => window.removeEventListener('resize', setVh);
   }, []);
-  
+
   return (
     <section className="w-full min-h-screen pt-20">
       {/* MOBILE */}
       <div 
-        className="w-full lg:hidden flex flex-col"
+        className="w-full lg:hidden flex flex-col max-h-[625px]"
         style={{ height: 'calc(var(--vh, 1vh) * 100 - 80px)' }}
       >
         {/* Primeira metade */}
@@ -34,7 +34,7 @@ const Home = () => {
         </div>
 
         {/* Segunda metade */}
-        <div className="h-1/2 w-full bg-no-repeat bg-cover bg-right" style={{ backgroundImage: `url(${sorrisoMobile})` }}>
+        <div className="relative h-1/2 w-full bg-no-repeat bg-cover bg-right" style={{ backgroundImage: `url(${sorrisoMobile})` }}>
           <img src={onda} alt="Onda" className="absolute bottom-0 left-0 w-full object-contain pointer-events-none" />
         </div>
       </div>
