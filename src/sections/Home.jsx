@@ -21,8 +21,12 @@ const Home = () => {
     return () => window.removeEventListener('resize', setVh);
   }, []);
 
+  const isMobile = window.innerWidth < 1024;
+
+<section className={`${isMobile ? 'bg-red-200' : 'bg-blue-200'} w-full pt-20 ${isMobile ? '' : 'min-h-screen'}`}></section>
+
   return (
-    <section className="w-full min-h-screen pt-20">
+    <section className={`${isMobile ? 'w-full max-h-[704px] pt-20' : 'w-full min-h-screen pt-20'}`}>
       {/* MOBILE */}
       <div 
         className="w-full lg:hidden flex flex-col max-h-[625px]"

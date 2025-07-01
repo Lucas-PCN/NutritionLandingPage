@@ -7,7 +7,7 @@ const AboutMe = () => {
   return (
     <section id="sobre" className="w-full h-full flex items-center justify-center">
       {/* MOBILE */}
-      <div className="pb-[80px] pt-[50px] flex flex-col gap-[48px] items-center justify-center md:flex-row lg:hidden">
+      <div className="pb-[80px] pt-[100px] flex flex-col gap-[48px] items-center justify-center md:flex-row lg:hidden">
         <AboutMeMobileCard />
         <img src={quemSouEu} alt="Nutricionista Bianca" className="w-[220px] h-[270px]" />
       </div>
