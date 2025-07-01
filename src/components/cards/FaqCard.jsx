@@ -24,5 +24,3 @@ const FaqCard = ({ question, answer, customWidth }) => {
 };
 
 export default FaqCard;
-
-// transition-all duration-300 ease-in-out
