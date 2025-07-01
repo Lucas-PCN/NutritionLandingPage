@@ -5,7 +5,7 @@ import AboutMeMobileCard from "../components/cards/mobile/AboutMeMobileCard";
 
 const AboutMe = () => {
   return (
-    <section className="w-full h-full flex items-center justify-center">
+    <section id="sobre" className="w-full h-full flex items-center justify-center">
       {/* MOBILE */}
       <div className="py-[80px] flex flex-col gap-[48px] items-center justify-center md:flex-row lg:hidden">
         <AboutMeMobileCard />

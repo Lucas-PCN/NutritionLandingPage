@@ -8,7 +8,7 @@ import ServiceCard from '../components/cards/ServiceCard';
 
 const services = () => {
   return (
-    <section className="w-full flex flex-col justify-center items-center py-20 gap-[75px] lg:gap-[80px]">
+    <section id="servicos" className="w-full flex flex-col justify-center items-center py-20 gap-[75px] lg:gap-[80px]">
       <div className="flex flex-col gap-4 justify-center items-center">
         <h1 className="text-[20px] lg:text-[42px]">
           Meus Serviços

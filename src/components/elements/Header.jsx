@@ -20,7 +20,9 @@ const Header = () => {
         </button>
 
         {/* Logo */}
-        <img src={logoNutri} alt="Logo" className="h-12" />
+        <a href="/">
+          <img src={logoNutri} alt="Logo" className="h-12" />
+        </a>
 
         {/* Botão WhatsApp */}
         <a
@@ -58,7 +60,9 @@ const Header = () => {
         {/* Logo + Navegação */}
         <div className="absolute left-48/100 transform -translate-x-48/100 flex items-center gap-12">
           <a href="#sobre" className="text-sm hover:underline">Bianca Pereira Nutricionista</a>
-          <img src={logoNutri} alt="Logo" className="h-12" />
+          <a href="/">
+            <img src={logoNutri} alt="Logo" className="h-12" />
+          </a>
           <nav className="flex gap-8 text-black text-sm">
             <a href="#servicos" className="hover:underline">Serviços</a>
             <a href="#contato" className="hover:underline">Contato</a>
