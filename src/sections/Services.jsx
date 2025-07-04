@@ -41,7 +41,7 @@ const services = () => {
 
       <div className="flex flex-col items-start justify-center gap-[75px] lg:flex-row">
         <ServiceCard
-          title="Bioimpedância elétricao"
+          title="Bioimpedância elétrica"
           description="Ofereço o exame de Bioimpedância Elétrica para uma análise completa da composição corporal. Com ele, é possível medir de forma precisa a gordura corporal total, a massa magra, a massa muscular, a gordura visceral e a taxa metabólica basal."
           image={bioimpedancia}
           customWidth="w-[260px] lg:w-[308px]"
